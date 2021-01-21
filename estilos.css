@@ -1,0 +1,30 @@
+body{
+  background: #FDD700;
+  font-family: 'Roboto', sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+.contenedor{
+  width: 95%;
+  max-width: 1300px;
+  margin: auto;
+}
+
+header {
+  height: 100vh;
+  background:linear-gradient(rgba(33,23,23,.6),rgba(255, 215, 0,1)), url('IMAGENES/Ffondo.jpg') left no-repeat; 
+  background:url('IMAGENES/Ffondo.png') left no-repeat;
+  background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+}
+#contenedor-menu a{
+  color:  rgb(187, 255, 0);
+  font-size: 20px;
+}
+#contenedor-menu {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 5px;
+  font-size: 18px;
+}
